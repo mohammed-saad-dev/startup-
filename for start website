@@ -1,0 +1,46 @@
+/*start var */ 
+
+:root{
+
+}
+
+/*end var*/
+
+
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+ /*fonts*/
+ }
+
+/*start media*/
+
+
+.container{
+    padding:0 15px;
+   margin:0px  auto
+}
+/*Small*/
+@media (min-width:780px) {
+    .container{
+        width:750px
+    }
+}
+/*medium*/
+@media (min-width:992px) {
+    .container{
+        width:970px
+    }
+}
+/*large*/
+@media (min-width:1200px) {
+    .container{
+        width:1170px
+    }
+}
